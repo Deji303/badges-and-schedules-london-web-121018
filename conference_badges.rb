@@ -19,6 +19,5 @@ end
 def printer (attendees)
   printbadgemessage = batch_badge_creator(attendees).each{|x| puts x};
   printassignmessage = assign_rooms(attendees).each{|x| puts x};
-  puts printbadgemessage;
-  puts printbadgemessage
+  nil
 end 
